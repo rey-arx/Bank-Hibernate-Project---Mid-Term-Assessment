@@ -5,6 +5,7 @@ import org.bank.dto.BankAccount;
 import java.util.List;
 
 public interface BankDao {
+    
     public boolean createBankAccount(BankAccount bankAccount);
     public List<BankAccount> getAllBankAccount();
     public boolean updateBankAccount(BankAccount bankAccount);
